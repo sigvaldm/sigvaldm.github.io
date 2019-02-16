@@ -27,6 +27,7 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-hydeout
+remote_theme: fongandrew/hydeout
 plugins:
   - jekyll-feed
 
