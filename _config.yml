@@ -10,8 +10,6 @@ github_username: sigvaldm
 author:
   name: Sigvald Marholm
 
-paginate: 5
-
 # Build settings
 
 markdown: kramdown
@@ -26,4 +24,8 @@ plugins:
 
 # Sidebar settings
 sidebar_home_link:  true
-# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
+sidebar_blog_link:  '/blog/'   # By default, your home page is your blog
+
+paginate_path: "/blog/page:num"
+paginate: 5
+
